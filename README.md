@@ -6,10 +6,14 @@ A web based administration tool for HBLink written in Python 3.
   * Add/Edit/Delete Bridges
   * Add/Edit/Delete Bridge rules
   * Add/Edit/Delete Master, Peer, Openbridge, and XLX Peer connections
+<img src="web-admin-1.png?raw=true">
 
+<img src="web-admin-2.png?raw=true">
+
+<img src="web-admin-3.png?raw=true">
 
 ## Currently in developement:
-
+* _*Easy import from current configurations*_
 * User authentication
 * Talkgroup list management
 * Ability to exclude single talkgroup from list when adding talkgroup triggers to rule.
