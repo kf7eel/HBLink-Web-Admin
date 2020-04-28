@@ -32,7 +32,7 @@ sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, PACKAGE_PARENT)))
 
 from rules_web import *
 from config import *
-from macros import *
+from functions import *
 
 from configparser import ConfigParser
 
