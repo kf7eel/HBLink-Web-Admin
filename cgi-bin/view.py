@@ -40,7 +40,7 @@ from config import *
 # Rule viewer
 
 from core import *
-from rules import *
+from rules_web import *
 
 
 print(header)
@@ -56,3 +56,8 @@ print(' <tbody>')
 print(' </tbody>')
 print('</table>')
 print(footer)
+
+
+
+
+
