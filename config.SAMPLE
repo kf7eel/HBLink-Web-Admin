@@ -1,0 +1,25 @@
+import cgi, cgitb, os, sys
+
+# Path to HBLink configuration
+hblink_loc = '/path/to/hblink/' #DMR/hblink3/'
+
+
+sys.path.append(hblink_loc)
+sys.path.append('..')
+from rules_web import *
+
+#Path to HBLink log
+hblink_log = '/tmp/hblink.log'
+
+#URL to HBMonitor, optional
+hbmonitor_url = 'index.html'
+
+#Command or script to execute to restart HBLink
+hblink_restart = 'ls'
+
+####################
+#Path to rules file that web admin uses, best to leave as default.
+rule_file = hblink_loc + 'rules_web.py'
+
+#Path to HBLink config file
+hblink_config = hblink_loc + 'hblink.cfg'
