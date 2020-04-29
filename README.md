@@ -39,6 +39,8 @@ Keep a backup of your original rules.py and hblink.cfg in the event that this to
 
 Also create a backup of the modified rules.py, rules_web.py, and functions.py. There were a couple instances where these files got erased during testing, I think that has been fixed though.
 
+Openbridge configurations must have "both_slots" in order to show up in web interface.
+
 This tool is still evolving, there will be bug fixes, etc. in the future.
 
 # Setup
