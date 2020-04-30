@@ -85,7 +85,7 @@ Add `from functions import *` and `from rules_web import *
 
 10. Go back to the folder where HBLink web admin is and start the Pytohn web server. Remember, there is presently no user authentication, so do not start server on publicly accessible port.
 
-`python3.7 -m http.server --cgi 8090
+`python3 -m http.server --cgi 8090
 `
 
 11. In your web browser, got to the ip address of the HBLink server on port 8090 or what ever you set it to in the command above.
