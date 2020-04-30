@@ -45,30 +45,30 @@ form = cgi.FieldStorage()
 print(header)
 
 print('''
-<p style="text-align: center;"><strong><h3>Custom Macros (functions)</h3></strong></p>
+<p style="text-align: center;"><strong><h3>Custom Functions</h3></strong></p>
 <p>&nbsp;</p>
 
 <form action = "/cgi-bin/adv_edit.py" method = "post" target = "_blank">
    <select name = "select">
       <option value = "config" selected>HBLink Config</option>
-      <option value = "macro">Macros</option>
+      <option value = "macro">Functions</option>
    </select>
    <input type = "submit" value = "Submit"/>
 </form>
 
 ''')
 
-if str(form.getvalue('select')) == 'macro':
+if str(form.getvalue('select')) == 'functions':
     print('''
 <hr />
-<form action = "/cgi-bin/adv_edit_save.py?save=macro_yes" method = "post" target = "_blank">
+<form action = "/cgi-bin/adv_edit_save.py?save=function_yes" method = "post" target = "_blank">
 
 <input type = "submit" value = "Save" />
 <hr />
 <p><textarea style="width: 100%; height: 100%;" name="textcontent">
 ''')
 
-    with open(hblink_loc + 'macros.py', 'r') as file:
+    with open(hblink_loc + 'functions.py', 'r') as file:
         print(file.read())
 
     print('''

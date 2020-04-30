@@ -46,7 +46,7 @@ print(header)
 
 if str(form.getvalue('save')) == 'macro_yes':
 
-    with open(hblink_loc + 'macros.py', 'w') as file:
+    with open(hblink_loc + 'functions.py', 'w') as file:
         file.write(form.getvalue('textcontent'))
     print('<p style="text-align: center;"><strong><h3>Saved changes.</h3></strong></p>')
     print(redirect)

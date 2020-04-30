@@ -31,8 +31,10 @@ sys.path.append(os.path.normpath(os.path.join(SCRIPT_DIR, PACKAGE_PARENT)))
 
 from config import *
 from core import *
-from macros import *
+from functions import *
 from rules_web import *
+#from lists import *
+
 
 form = cgi.FieldStorage()
 
