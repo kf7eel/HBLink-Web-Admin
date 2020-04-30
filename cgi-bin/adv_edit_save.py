@@ -1,4 +1,4 @@
-#!/usr/bin/python3.7
+#!/usr/bin/python3
 
 ###############################################################################
 #   Copyright (C) 2020 Eric Craw, KF7EEL <kf7eel@qsl.net>
