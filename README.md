@@ -1,6 +1,23 @@
 # HBLink-Web-Admin
 A web based administration tool for HBLink written in Python 3.
 
+# Warnings...
+
+This tool is in ALPHA testing, use at your own risk.
+
+Things to remember:
+* ALWAYS, ALWAYS, ALWAYS make a backup of rules.py and hblink,cfg prior to using the web interface. Once you start using the interface, it will completely change the layout of both files.
+* DO NOT run this on a publicly accessable port as there is no user authentication (yet).
+
+Keep a backup of your original rules.py and hblink.cfg in the event that this tool doesn't work. It is still in developement, and I am a novice at Python, so there are a lot of bugs :).
+
+Also create a backup of the modified rules.py, rules_web.py, and functions.py. There were a couple instances where these files got erased during testing, I think that has been fixed though.
+
+Openbridge configurations must have "both_slots" in order to show up in web interface.
+
+This tool is still evolving, there will be bug fixes, etc. in the future.
+
+
 ## Features:
 
   * Add/Edit/Delete Bridges
@@ -27,21 +44,6 @@ A web based administration tool for HBLink written in Python 3.
 * Talkgroup list management
 * Ability to exclude single talkgroup from list when adding talkgroup triggers to rule.
 
-# 4-28-2020 - # Warnings...
-
-This tool is in ALPHA testing, use at your own risk.
-
-Things to remember:
-* ALWAYS, ALWAYS, ALWAYS make a backup of rules.py and hblink,cfg prior to using the web interface. Once you start using the interface, it will completely change the layout of both files.
-* DO NOT run this on a publicly accessable port as there is no user authentication (yet).
-
-Keep a backup of your original rules.py and hblink.cfg in the event that this tool doesn't work. It is still in developement, and I am a novice at Python, so there are a lot of bugs :).
-
-Also create a backup of the modified rules.py, rules_web.py, and functions.py. There were a couple instances where these files got erased during testing, I think that has been fixed though.
-
-Openbridge configurations must have "both_slots" in order to show up in web interface.
-
-This tool is still evolving, there will be bug fixes, etc. in the future.
 
 # Setup
 
