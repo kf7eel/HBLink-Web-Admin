@@ -1,3 +1,5 @@
+# This repository is no longer maintained. This project has been abandoned in favor of [HBNet](https://github.com/kf7eel/hblink3/tree/hbnet), which has a significantly improved web administration panel, in addition to other features.
+
 # HBLink-Web-Admin
 A web based administration tool for HBLink written in Python 3.
 
